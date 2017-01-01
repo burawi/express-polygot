@@ -6,16 +6,17 @@ npm i express-polyglot --save
 # Usage
 
 1. Start by creating a folder in which you write your locales, Eg:
-```
-App Folder
-|___locales
-    |   en.js
-    |   ar.js
-...
-```
-Every file should have `module.exports`, Eg:
+    ```
+    App Folder
+    |___locales
+        |   en.js
+        |   ar.js
+    ...
+    ```
+    Every file should have `module.exports`, Eg:
 
     **en.js**:
+
     ```javascript
     module.exports = {
         hello: 'Hello World'
